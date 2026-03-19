@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "3z8W7++Jb8Q=",
+  "success": true,
+  "projectFilePath": "/Users/viktoriabalakireva/RiderProjects/team-12/UserRequestsKafkaGenerator/UserRequestsKafkaGenerator.csproj",
+  "expectedPackageFiles": [
+    "/Users/viktoriabalakireva/.nuget/packages/confluent.kafka/2.11.1/confluent.kafka.2.11.1.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/google.protobuf/3.32.1/google.protobuf.3.32.1.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/grpc.tools/2.72.0/grpc.tools.2.72.0.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/librdkafka.redist/2.11.1/librdkafka.redist.2.11.1.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/viktoriabalakireva/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.20/microsoft.netcore.app.host.osx-x64.8.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

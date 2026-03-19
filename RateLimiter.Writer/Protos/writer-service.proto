@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "RateLimiter.Writer";
+
+package writer;
+
+message RateLimitDto {
+  string route = 1;
+  int32 request_per_minute = 2;
+}
+
+message CreateLimitRequest { RateLimitDto limit = 1; }
+message GetLimitByRouteRequest { string route = 1; }
+message UpdateLimitRequest { RateLimitDto limit = 1; }
+message DeleteLimitRequest { string route = 1; }
+
+message RateLimitResponse{ RateLimitDto limit = 1;}
+
+message Empty {}
+
+service Writer {
+  rpc CreateLimit (CreateLimitRequest) returns (RateLimitResponse);
+  rpc GetLimitByRoute (GetLimitByRouteRequest) returns (RateLimitResponse);
+  rpc UpdateLimit (UpdateLimitRequest) returns (RateLimitResponse);
+  rpc DeleteLimit (DeleteLimitRequest) returns (Empty);
+}

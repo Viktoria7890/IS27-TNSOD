@@ -1,0 +1,1 @@
+create index if not exists ix_users_name_surname on public.users (name, surname);

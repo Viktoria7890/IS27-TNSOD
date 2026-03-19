@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "RateLimiter.Reader";
+
+package reader;
+
+import "google/protobuf/empty.proto";
+
+service Reader {
+  rpc Ping (PingRequest) returns (PingResponse);
+  rpc GetAllLimits (google.protobuf.Empty) returns (GetAllLimitsResponse);
+}
+
+message PingRequest {
+  string clientName = 1;
+}
+
+message PingResponse {
+  string status = 1;
+}
+
+message RateLimitDto {
+  string route = 1;
+  int32 requests_per_minute = 2;
+}
+
+message GetAllLimitsResponse {
+  repeated RateLimitDto limits = 1;
+}

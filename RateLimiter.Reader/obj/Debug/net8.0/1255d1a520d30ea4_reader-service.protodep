@@ -1,0 +1,3 @@
+obj/Debug/net8.0/Protos/Reader-serviceGrpc.cs \
+obj/Debug/net8.0/Protos/ReaderService.cs: /Users/viktoriabalakireva/.nuget/packages/grpc.tools/2.72.0/build/native/include/google/protobuf/empty.proto\
+ Protos/reader-service.proto
